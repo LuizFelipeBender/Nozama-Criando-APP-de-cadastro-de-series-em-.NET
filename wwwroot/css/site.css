@@ -1,0 +1,41 @@
+html {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+.card-body {
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.card-img-top {
+    overflow: hidden;
+}
+
+.card-img-top {
+    pointer-events: auto;
+    cursor: pointer;
+    max-width: 100%;
+    -moz-transition: all 0.4s;
+    -webkit-animation: all 0.4;
+}
+.card-img-top:hover img {
+    -moz-transform:scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
